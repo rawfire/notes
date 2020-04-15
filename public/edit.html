@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>EDITnotes</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">notes :</h1> 
+            <h2 class="header__subtitle">typing...</h2>
+        </div>
+    </header>
+    <div class="actions">
+        <div class="actions__container actions__container--spaced">
+            <a href="index.html">Home</a>
+            <span id="last-edited"></span>
+        </div>
+    </div>
+
+    <div class="container">
+        <input id="note-title" placeholder="Note Title" class="title-input">
+        <textarea id="note-body" class="body-input" placeholder="Enter Note..."></textarea>
+        <button id="remove-note" class="button button--secondary">DELETE</button>
+        <button id="save-note" class="button">SAVE</button>
+    </div>
+
+</body>
+<script src="scripts/edit-bundle.js"></script>
+</html>
